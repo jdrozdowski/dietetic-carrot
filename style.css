@@ -1,0 +1,1347 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#efefef;
+    font-family:Lato, Arial, sans-serif;
+    font-size:16px;
+    color:#333333;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+.clear{
+    clear:both;
+}
+
+/*HEADER*/
+
+header{
+    max-width:1240px;
+    height:100px;
+    padding:13px 24px;
+    margin:0 auto;
+    border-bottom:2px solid #7ac402;
+}
+
+.logo{
+    max-width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+	float:left;
+}
+
+.logo h1{
+    margin:0;
+    padding:0;
+}
+
+/*NAVIGATION*/
+
+#menu-icon{
+	display:hidden;
+	width:40px;
+	height:40px;
+	background: url(images/menu-icon.png) center;
+    background-repeat:no-repeat;
+}
+
+#menu-icon a:hover{
+	background-color:#444;
+	border-radius:4px;
+}
+
+#menu-icon a:hover ul{
+	display:block;
+}
+
+.top-nav{
+    margin:28px 0;
+    padding:0;
+    float:right;
+}
+
+.top-nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0; 
+}
+
+.top-nav ul li{
+    display:inline;
+    margin:0;
+    border-right:1px solid #888888;
+}
+
+.top-nav ul li a{
+    text-transform:uppercase;
+    color:#333333;
+    margin:0 20px;    
+}
+
+.top-nav ul li a:hover{
+    color:#9bdf19;
+    border-bottom:1px solid #9bdf19;   
+}
+
+.top-nav ul .order{
+    border-right:none;
+}
+
+.top-nav ul .order a{
+    color:#9bdf19;
+    font-weight:bold;
+}
+
+/*MAIN BANNER*/
+
+.main-banner{
+    max-width:100%;
+    height:auto;
+    margin:15px 0 0 0;
+    background-image:url("images/Banner.jpg");
+    background-position:50% 0;
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+
+.main-banner .banner-content{
+    background-color:rgba(240,87,88,0.85);
+    color:#fffbf8;
+    text-align:center;
+    padding:30px 0; 
+}
+
+.main-banner .banner-text{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.main-banner .banner-text h2{
+    display:inline;
+    font-size:26px;
+    font-weight:bold;
+    padding:0 0 7px 0;
+    margin:0;
+    border-bottom:2px solid #fffbf8;
+}
+
+.main-banner .banner-text p{
+    margin:27px 0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.main-banner .banner-button{
+    display:block;
+    max-width:200px;
+    margin:0 auto;
+    padding:10px 0;
+    text-align:center; 
+    border:2px solid #fffbf8;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    color:#fffbf8;  
+}
+
+.main-banner .banner-button:hover{
+    color:#333333;
+    background:rgba(255, 251, 248, 0.65)
+}
+
+/*MAIN-CONTENT*/
+
+.container{
+    max-width:1240px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.headline{
+    margin:0 auto 40px auto;
+    padding-bottom:10px;
+    font-size:36px;
+    font-weight:bold;
+    color:#333333;
+    text-transform:uppercase;
+    border-bottom:2px solid #333333; 
+}
+
+.newest-articles, .recommended-recipes{
+    margin:50px auto;
+    padding:0;
+}
+
+.newest-articles .headline{
+    max-width:421px;
+}
+
+.recommended-recipes .headline{
+    max-width:394px;
+}
+
+
+.newest-articles h2, .recommended-recipes h2{
+    font-size:26px;
+    color:#f0f0f0;
+}
+
+.newest-articles p, .recommended-recipes p{
+    font-size:16px;
+    color:#f0f0f0;
+}
+
+.newest-articles img, .recommended-recipes img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.article-margin{
+    margin-right:0.3333333333333333%;
+}
+
+.bottom-margin{
+    margin-bottom:30px;
+}
+
+.big-bottom-margin{
+    margin-bottom:60px;
+}
+
+.article1 a{
+    background-image:url("images/min/Ananas2.jpg");
+}
+
+.article2 a{
+    background-image:url("images/min/Truskawki.jpg");
+}
+
+.article3 a{
+    background-image:url("images/min/FastFood.jpg");
+}
+
+.article4 a{
+    background-image:url("images/min/Woda.jpg");
+}
+
+.article5 a{
+    background-image:url("images/min/Lorem.jpg");
+}
+
+.recipe1 a{
+    background-image:url("images/min/Pancakes.jpg");
+}
+
+.recipe2 a{
+    background-image:url("images/min/Stek.jpg");
+}
+
+.recipe3 a{
+    background-image:url("images/min/Muffiny.jpg");
+}
+
+.recipe4 a{
+    background-image:url("images/min/Ipsum.jpg");
+}
+
+.caption h2{
+    font-size:18px;
+}
+/*BIG ARTICLE*/
+
+.big-article{
+    width:49.83333333333333%;
+    height:auto;
+    float:left;
+    position:relative;
+    overflow:hidden;
+}
+
+.big-article a{
+    display:block;
+    width:100%;
+    height:484px;
+    background-position:center top;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.big-article .caption{
+    width:50%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:rgba(122,196,2,0.9);
+    padding:10% 5%;
+    overflow:hidden;
+}
+
+.big-article .caption h2{
+    margin:0;
+}
+
+.big-article .caption p{
+    margin:7.5% auto;
+}
+
+/*MEDIUM ARTICLE*/
+
+.medium-article{
+    box-sizing:border-box;
+    width:24.75%;
+    height:auto;
+    float:left;
+    position:relative;
+}
+
+.medium-article a{
+    display:block;
+    width:100%;
+    height:484px;
+    background-position:center top;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.medium-article .caption{
+    width:100%;
+    height:35%;
+    position:absolute;
+    bottom:0px;
+    background-color:rgba(122,196,2,0.8);
+    padding:15px 30px 0 30px;
+    overflow:hidden;
+}
+
+.medium-article .caption h2{
+    margin:0;
+}
+
+.medium-article .caption p{
+    margin:15px auto;
+}
+
+.medium-article .short-caption{
+    width:100%;
+    height:35%;
+    position:absolute;
+    bottom:0px;
+    background-color:rgba(99,221,174,0.8);
+    text-align:center;
+    overflow: hidden;
+}
+
+.medium-article .short-caption h2{
+    margin-top:35px;
+}
+
+/*SMALL ARTICLE*/
+
+.small-article{
+    width:24.75%;
+    margin-top:0.355%;
+    float:left;
+}
+
+.small-article a{
+    display:block;
+    position:relative;
+    width:100%;
+    min-height:341px;
+    background-position:center top;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.small-article .caption, .small-article .caption2{
+    width:100%;
+    margin:0;
+    padding:15px 30px 0 30px;
+    background-color:#7ac402;
+    overflow:hidden;
+    position:absolute;
+    bottom:0;
+}
+
+.small-article .caption h2{
+    margin:0;
+}
+
+.small-article .caption2 h2{
+    margin:15px auto;
+}
+
+.small-article .caption p{
+    margin:15px auto;
+}
+
+/*BUTTONS*/
+
+.articles-button{
+    clear:both;
+    display:block;
+    max-width:200px;
+    margin:0 auto;
+    padding:10px 0;
+    text-align:center; 
+    border:2px solid #7ac402;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333333;
+}
+
+.articles-button:hover{
+    background:#7ac402;
+    color:#f0f0f0;
+}
+
+.recipes-button{
+    clear:both;
+    display:block;
+    max-width:200px;
+    margin:0 auto;
+    padding:10px 0;
+    text-align:center; 
+    border:2px solid #63ddae;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333333;
+}
+
+.recipes-button:hover{
+    color:#f0f0f0; 
+    background:#63ddae;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color:#191919;
+}
+
+.main-footer{
+    max-width:1200px;
+    min-height:340px;
+    margin:0 auto;
+    padding:20px;
+    text-align:center;
+}
+
+footer h3{
+    display:inline;
+    font-size:18px;
+    font-weight:normal;
+    color:#fffbf8;
+    border-bottom:1px solid #9bdf19;
+    padding-bottom:9px;
+    text-transform:uppercase;
+}
+
+footer a, footer dd{
+    color:#909090;
+}
+
+footer dt{
+    color:#c7c7c7;
+    text-transform:uppercase;
+}
+
+/*CONTACT DETAILS*/
+
+.contact-details{
+    display:block;
+    float:left;
+    text-align:left;
+    width:200px;
+    margin:30px 0 0 90px;
+}
+
+.contact-details dl{
+    padding:0 0 0 15px;
+    margin:29px 0;
+}
+
+.contact-details dl dd{
+    margin:5px 0 5px 7px;
+    padding:0;
+}
+
+.contact-details dl dd p{
+    margin:0 20px 0 0;
+    padding:0;
+    color:#9bdf19;
+}
+
+/*NEWSLETTER*/
+
+.newsletter{
+    display:block;
+    float:right;
+    text-align:left;
+    width:210px;
+    margin:30px 90px 0;
+}
+
+.newsletter fieldset{
+    border:none;
+}
+
+.newsletter legend{
+    font-size:18px;
+    color:#fffbf8;
+    border-bottom:1px solid #9bdf19;
+    padding:0 0 9px 0;
+    text-transform:uppercase;
+}
+
+.newsletter legend{
+    margin:0 0 20px 0;
+}
+
+.newsletter input{
+    background-color:rgba(122,196,2,0);
+    border:2px solid #9bdf19;
+    border-radius:3px;
+    margin-bottom:12px;
+    color:#fffbf8;
+    font-style: italic;
+    font-weight: 300;
+    font-family:Lato, Arial, sans-serif;
+    width:207px;
+    height:30px;
+    padding:4px 0 4px 11px;
+    box-sizing:border-box;
+}
+
+.newsletter button{
+    background-color:rgba(122,196,2,0);
+    border:2px solid #9bdf19;
+    border-radius:3px;
+    font-family:Lato, Arial, sans-serif;
+    color:#fffbf8;
+    width:100px;
+    height:30px;
+    text-align:center;
+    float:right;
+    cursor:pointer; 
+}
+
+.newsletter button:hover{
+    background-color:#9bdf19;
+    color:#191919;
+    font-weight:bold;
+}
+
+
+/*COPYRIGHT*/
+
+.copyright{
+    clear:both;
+    height:35px;
+    margin:auto 45px;
+    padding:10px 0;
+    margin:0;
+    background-color:#0d0d0d;
+    color:#909090;
+    text-align:center;
+}
+
+
+/*TEMPLATE--->ARTICLES*/
+
+.articles{
+    background-image:url(images/banner/articles.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.diets{
+    background-image:url(images/banner/diets.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.recipes{
+    background-image:url(images/banner/recipes.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.dietitians-banner{
+    background-image:url(images/banner/dietitians.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.orders{
+    background-image:url(images/banner/order.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.water{
+    background-image:url(images/articles/Woda.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.strawberry{
+    background-image:url(images/articles/Truskawki.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.pineapple{
+    background-image:url(images/articles/Ananas.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.pancakes{
+    background-image:url(images/recipes/Pancakes.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.steak{
+    background-image:url(images/recipes/Stek.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.muffin{
+    background-image:url(images/recipes/Muffiny.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.ipsum{
+    background-image:url(images/recipes/Ipsum.jpg);
+    background-position:0% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+.fastfood{
+    background-image:url(images/articles/FastFood.jpg);
+}
+
+.lorem{
+    background-image:url(images/articles/Lorem.jpg);
+}
+
+.main-article{
+    margin:0 0 60px 0;
+}
+
+.article-banner{
+    width:100%;
+    height:300px;
+    margin:0;
+    background-repeat: no-repeat;
+    background-position:50% 0%;
+    overflow: hidden;
+    position:relative;
+    display:table;
+}
+
+.title{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    background-color:rgba(255, 251, 248, 0.6);
+    font-size:36px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#000000;
+}
+
+.article-location{
+    clear:both;
+    position:absolute;
+    top:10%;
+    width:100%;
+}
+
+.article-location ul{
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    background:#7ac402;
+    height:35px;
+    border-radius: 20px;
+    width:559px;
+}
+
+.article-location ul li{
+    display:inline;
+    margin:0 5px 0 0;
+    padding:28px;
+    color:#fffbf8;
+    line-height:35px;
+}
+
+.article-location ul li a{
+    color:#fffbf8;
+}
+
+.article-location ul li:last-of-type{
+    font-weight:bold;
+    margin:0;
+}
+
+.article-content{
+    width:65%;
+    float:left;
+}
+
+.article-details{
+    height:40px;
+    padding:0 30px;
+    line-height: 40px;
+    background-color:#7ac402;
+    color:#fffbf8;
+}
+
+.article-details .date{
+    float:left;
+    margin:0;
+}
+
+.article-details .author{
+    float:right;
+    margin:0;
+}
+
+.article-content .lead{
+    clear:both;
+    font-size:20px;
+    font-weight:400;
+    color:#7ac402;
+    margin:30px 0 20px 0;
+}
+
+.article-content .paragraphs p{
+    margin:20px 20px 0 0;
+}
+
+.sidebar{
+    float:right;
+    width:30%;
+}
+
+.worth-seeing h2{
+    width:226px;
+    margin:70px auto 40px auto;
+    padding-bottom:10px;
+    font-size:24px;
+    font-weight:bold;
+    color:#333333;
+    text-transform:uppercase;
+    text-align:center;
+    border-bottom:2px solid #333333; 
+}
+
+.worth-seeing ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.worth-seeing ul li{
+    overflow:hidden;
+    margin:0 0 4px 0;
+}
+
+.worth-seeing ul li a{
+    display:table;
+    background:#63ddae;
+    max-height:100px;
+    width:100%;
+}
+
+.worth-seeing ul li a img{
+    display:block;
+    float:left;
+    max-width:100px;
+    height:auto;
+    margin:0 20px 0 0;
+}
+
+.worth-seeing ul li a span{
+    display:table-cell;
+    color:#fffbf8;
+    vertical-align: middle;
+}
+
+.sidebar-banner{
+    background-image:url("images/Banner.jpg");
+    background-position:50% 0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width:100%;
+    height:auto;
+    clear:both;
+}
+
+.sidebar-content{
+    background-color:rgba(240,87,88,0.9);
+    color:#fffbf8;
+    text-align:center;
+    padding:30px 10px;
+}
+
+.sidebar-banner-text{
+    margin:0 auto;
+}
+
+.sidebar-banner-text h3{
+    display:inline;
+    font-size:26px;
+    padding:0 0 7px 0;
+    margin:0;
+    border-bottom:2px solid #fffbf8;
+}
+
+.sidebar-banner-text p{
+    margin:27px 0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.sidebar-banner-button{
+    display:block;
+    max-width:150px;
+    margin:0 auto;
+    padding:2px 0;
+    text-align:center; 
+    border:2px solid #fffbf8;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    color:#fffbf8;  
+}  
+
+.sidebar-banner-button:hover{
+    color:#333333;
+    background:rgba(255, 251, 248, 0.65)
+}
+
+
+
+
+.small-box{
+    width:24.4%;
+    margin-top:0.355%;
+    float:left;
+}
+
+.categories{
+    margin:60px 0 0 0;
+    padding:0;
+    text-align:center;
+}
+
+.categories ul{
+    list-style-type:none;
+    margin:0;
+    padding:0; 
+}
+
+.categories ul li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+.categories ul li a{
+    text-transform:uppercase;
+    color:#44494b;
+    font-size:16px;
+    font-weight:bold;
+    margin:0;
+    padding:12px 24px;
+    border-bottom:1px solid #44494b;
+}
+
+.categories ul li a:hover{
+    color:#9bdf19;
+    border-bottom:1px solid #9bdf19;   
+}
+
+.categories ul li:last-of-type {
+    border-right:none;
+}
+
+/*DIETITIANS*/
+
+.dietitians{
+    text-align:center;
+}
+.dietitians .member{
+    float:left;
+    max-width:300px;
+    max-height:800px;
+    overflow:hidden;
+    position:relative;
+}
+
+.description{
+    text-align:center;
+    margin:30px auto;
+    max-width:900px;
+    font-size:20px;
+}
+
+.dietitians .member img{
+    width:100%;
+    height:auto;
+}
+
+.back{
+    display:table;
+    height:100%;
+    padding:0 20px;
+    position:absolute;
+    top:0;
+    background:rgba(240,87,88,0.8);
+    opacity:0;
+    cursor:default;
+}
+
+.back .description-text{
+    height:800px;
+    display:table-cell;
+    vertical-align:middle;
+    color:#fffbf8;
+    margin:0;
+    padding:0;
+}
+
+.back .description-text h2{
+    font-size:20px;
+    font-weight:bold;
+    margin:0 0 40px 0;
+}
+
+.back .description-text p{
+    display:table-cell;
+    vertical-align:middle;
+    font-size:16px;
+}
+
+.back .description-text a{
+    display:block;
+    max-width:200px;
+    margin:60px auto;
+    padding:10px 0;
+    border:2px solid #fffbf8;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:bold;
+    color:#fffbf8; 
+}
+
+.back .description-text a:hover{
+    color:#333333;
+    background:rgba(255, 251, 248, 0.65)
+}
+
+.back:hover{
+    opacity:1;
+}
+
+.back .description-text a:hover{
+    color:#333333;
+    background:rgba(255, 251, 248, 0.65)
+}
+
+.order-form{
+    margin:50px auto;
+}
+
+.order-form fieldset{
+    text-align:center;
+    border:none;
+}
+
+.order-form legend{
+    margin:20px auto;
+    padding:0 0 9px 0;
+    border-bottom:1px solid #9bdf19;
+    font-size:20px;
+    color:#333333;
+    text-transform:uppercase;
+}
+
+.order-form .input-text input, .order-form select{
+    margin:0 5px 30px 0;
+    padding:4px 0 4px 11px;
+    max-width:300px;
+    height:40px;
+    background-color:#333333;
+    border:2px solid #9bdf19;
+    border-radius:3px;
+    color:#fffbf8;
+    font-family:Lato, Arial, sans-serif;
+}
+
+.order-form textarea{
+    display:block;
+    margin:15px auto;
+    font-size:14px;
+}
+
+.order-form button{
+    display:block;
+    margin:0 auto;
+    background-color:rgba(122,196,2,0);
+    border:2px solid #9bdf19;
+    border-radius:3px;
+    font-size:16px;
+    font-family:Lato, Arial, sans-serif;
+    font-weight:bold;
+    color:#333333;
+    width:200px;
+    height:40px;
+    text-align:center;
+    cursor:pointer; 
+}
+
+.order-form button:hover{
+    background-color:#9bdf19;
+    color:#efefef;
+    font-weight:bold;
+}
+
+
+@media screen and (min-width:750px) and (max-width:1024px){
+    
+.top-nav ul li a{
+    margin:0 8px;    
+}    
+
+.main-banner .banner-content{
+    padding:10px 0; 
+}
+
+.main-banner .banner-text h2{
+    font-size:24px;
+}
+
+.main-banner .banner-text p{
+    margin:23px 0;
+    font-size:16px;
+}
+    
+.container{
+    max-width:984px;  
+}    
+    
+.article-margin{
+    margin-right:0;
+}
+    
+.right-margin{
+    margin-right:0.3333333333333333%     
+}
+
+.bottom-margin{
+    margin-bottom:0;
+}
+
+.big-bottom-margin{
+    margin-bottom:60px;
+}
+
+.big-article{
+    width:100%;
+}
+
+.medium-article{
+    width:49.83333333333333%;
+    margin-top:0.5%;
+}
+    
+.small-article{
+    width:49.83333333333333%;
+    margin-top:0.5%;
+}
+    
+    .medium-article:last-of-type{
+        margin-bottom:30px;
+    }
+    
+    .small-article:last-of-type{
+        margin-bottom:30px;
+    }
+    
+.big-article a, .medium-article a{
+    height:400px;
+}
+    
+.big-article .caption{
+    width:50%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:rgba(122,196,2,0.7);
+    padding:10% 5%;
+    overflow:hidden;
+}
+
+.medium-article .caption{
+    width:100%;
+    height:35%;
+    position:absolute;
+    bottom:0px;
+    background-color:rgba(122,196,2,0.7);
+    padding:15px 30px 0 30px;
+    overflow:hidden;
+}
+
+.small-article .caption{
+    width:100%;
+    margin:0;
+    padding:15px 30px 0 30px;
+    background-color:rgb(122,196,2);
+    overflow:hidden;
+    position:absolute
+}
+    
+    .photos{}
+    .dietitians .member{
+    max-height:600px;
+    float:left;
+    margin:0 10px 10px 0;
+    }
+    
+}
+
+@media screen and (max-width:749px){
+    .slider-wrapper, .nivo-html-caption{
+        display:none;
+    }
+    
+    #menu-icon {
+		display:inline-block;
+
+	}
+
+    .top-nav{
+    margin:28px 0 0 0;
+}
+	.top-nav ul, .top-nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 0 20px;
+		background: #fff;
+		border: 2px solid #9bdf19;
+		right: 20px;
+		top: 80px;
+		width: 50%;
+		border-radius:4px;
+
+	}
+
+	.top-nav ul li {
+        display:block;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        border-right:none;
+        border-bottom:1px solid #888888;
+	}
+    
+    .top-nav ul li:last-of-type {
+        border-bottom:none;
+    }
+
+	.top-nav:hover ul {
+        z-index:999;
+		display: block;
+
+	}
+    
+.main-banner .banner-content{
+    padding:10px 0; 
+}
+
+.main-banner .banner-text h2{
+    font-size:26px;
+    padding:0;
+    margin:0;
+    border-bottom:none;
+}
+    
+.main-banner .banner-text p{
+    display:none;
+}
+    
+.main-banner .banner-button{
+    margin:15px auto 0 auto;
+}
+    
+.container{
+    max-width:750px;  
+}    
+
+
+.big-article{
+    width:100%;
+    float:none;
+}
+
+.headline{
+    display:none;
+} 
+    
+.main-banner{
+    display:none;
+}
+    
+.medium-article{
+    width:100%;
+    float:none;
+    margin-top:0.5%;
+    position:relative;
+}
+
+.small-article{
+    width:100%;
+    float:none;
+    margin-top:0.5%;
+}
+
+.big-article .caption{
+    width:50%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:rgba(122,196,2,0.7);
+    padding:10% 5%;
+    overflow:hidden;
+}
+
+.medium-article .caption{
+    width:100%;
+    height:35%;
+    position:absolute;
+    bottom:0px;
+    background-color:rgba(122,196,2,0.7);
+    padding:15px 30px 0 30px;
+    overflow:hidden;
+}
+
+.small-article .caption{
+    width:100%;
+    margin:0;
+    padding:15px 30px 0 30px;
+    background-color:rgb(122,196,2);
+    overflow:hidden;
+}
+    
+    .medium-article:last-of-type{
+        margin-bottom:30px;
+    }
+    
+    .small-article:last-of-type{
+        margin-bottom:30px;
+    }
+    
+.bottom-margin{
+    margin-bottom:0;
+}
+    
+.categories ul li a{
+    padding:12px 10px;
+}
+    
+.dietitians .member{
+    max-height:600px;
+    float:none;
+    margin:0 auto 10px auto;
+}
+    
+    .article-location{
+        display:none;
+    }
+    
+    .article-content{
+    width:100%;
+    float:none;
+}
+.sidebar{
+    width:100%;
+}
+    
+.worth-seeing ul li{
+    overflow:hidden;
+    margin:0 0 4px 0;
+    width:50%;
+    float:left;
+}
+    
+.sidebar-content{
+    background-color:rgba(240,87,88,0.7);
+    color:#fffbf8;
+    text-align:center;
+    padding:10px 0; 
+}
+
+.sidebar-banner-text p{
+    margin:15px 0;
+    font-size:18px;
+}
+    
+.newsletter{
+    float:none;
+    margin:30px auto;
+}
+.contact-details{
+    float:none;
+    margin:30px auto;
+}
+}
+
+@media screen and (max-width:455px){
+    .worth-seeing ul li{
+    overflow:hidden;
+    margin:0 0 4px 0;
+    width:100%;
+}
+    .article-details{
+    font-size:14px;
+}
+}
+
+
+
+
+
